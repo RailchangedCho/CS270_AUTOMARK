@@ -9,7 +9,7 @@ def eval():
     print("A :" + str(a_result))
 
     AnsOrNot = []
-    for i in range(10):
+    for i in range(6):
         if q_result[i] == a_result[i]:
             print("Problem " + str(i+1) + " correct")
             AnsOrNot.append(True)

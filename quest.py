@@ -8,8 +8,8 @@ def getquestion():
     model = LatexOCR()
 
     question_array = []
-    for i in range(1, 11):
-        img_path = "tests/test_files/1.png"
+    for i in range(1, 7):
+        img_path = "tests/test_files/" + str(i) + ".png"
         with open(img_path, "rb") as f:
             data = f.read()
 

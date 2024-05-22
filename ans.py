@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 def getanswer():
     model = load_model('mnist_fin.h5')
     answer_array = []
-    for i in range(1, 11):
+    for i in range(1, 7):
         # img = Image.open("img.png")
         img = cv2.imread('answer/' + str(i) + '_ans.png')
         plt.figure(figsize=(15, 12))
